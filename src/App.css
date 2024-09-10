@@ -1,0 +1,59 @@
+.app-Container {
+  display: flex;
+}
+.sidebar {
+  min-height: 100vh;
+  position: fixed;
+}
+.content {
+  width: 100% - 200px;
+  margin-left: 200px;
+  overflow-x: hidden;
+}
+.post-card {
+  margin: 20px 0 0 50px;
+  width: 24rem;
+}
+.delete-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.hashtag {
+  display: inline-block;
+  margin: 0 3px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+.reactions {
+  display: block;
+  margin: 10px 0 0 0;
+  font-weight: 500;
+}
+
+.no-of-likes {
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+.create-post {
+  margin: 40px 50px;
+}
+.footer-item {
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+  text-align: center;
+}
+.welcomeMessege {
+  width: 100%;
+  margin-top: 90px;
+}
+
+.spinner {
+  margin-top: 20%;
+}
